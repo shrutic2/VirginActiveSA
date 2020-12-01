@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/llMon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/llTue">
+
+        <TextView
+            android:id="@+id/tvM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/mon"
+            android:fontFamily="@font/gotham_book"
+            android:textColor="@color/textHeading" />
+
+        <ImageView
+            android:id="@+id/ivM"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_indicator_border" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/llMon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/llWed">
+
+        <TextView
+            android:id="@+id/tvT"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tue"
+            android:fontFamily="@font/gotham_book"
+            android:textColor="@color/textHeading"/>
+
+        <ImageView
+            android:id="@+id/ivT"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_indicator_border" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llWed"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/llTue"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/llThu">
+
+        <TextView
+            android:id="@+id/tvW"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wed"
+            android:fontFamily="@font/gotham_book"
+            android:textColor="@color/textHeading"/>
+
+        <ImageView
+            android:id="@+id/ivW"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_indicator_border" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llThu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/llWed"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/llFri">
+
+        <TextView
+            android:id="@+id/tvTh"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/thu"
+            android:fontFamily="@font/gotham_book"
+            android:textColor="@color/textHeading"/>
+
+        <ImageView
+            android:id="@+id/ivTh"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_indicator_border" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llFri"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/llThu"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/llSat">
+
+        <TextView
+            android:id="@+id/tvF"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fri"
+            android:fontFamily="@font/gotham_book"
+            android:textColor="@color/textHeading"/>
+
+        <ImageView
+            android:id="@+id/ivF"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_indicator_border" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/llFri"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/llSun">
+
+        <TextView
+            android:id="@+id/tvS"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sat"
+            android:fontFamily="@font/gotham_book"
+            android:textColor="@color/textHeading"/>
+
+        <ImageView
+            android:id="@+id/ivS"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_indicator_border" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSun"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/llSat"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvSa"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sun"
+            android:fontFamily="@font/gotham_book"
+            android:textColor="@color/textHeading"/>
+
+        <ImageView
+            android:id="@+id/ivSa"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_indicator_border" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

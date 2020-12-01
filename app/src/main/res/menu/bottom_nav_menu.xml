@@ -3,31 +3,32 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/home"
         android:title="Home"
-        app:showAsAction="always"
-        android:orderInCategory="1"
+        android:icon="@drawable/ic_home"
         />
 
     <item android:id="@+id/book"
         android:title="Book"
-        app:showAsAction="always"
-        android:orderInCategory="2"
+        android:icon="@drawable/ic_calender_outlined"
         />
 
 
     <item android:id="@+id/workout"
         android:title="Workout"
+        android:icon="@drawable/ic_workout"
         app:showAsAction="always"
         android:orderInCategory="2"
         />
 
     <item android:id="@+id/trainers"
         android:title="Trainers"
+        android:icon="@drawable/ic_dumbbell2"
         app:showAsAction="always"
         android:orderInCategory="2"
         />
 
     <item android:id="@+id/profile"
-        android:title="Profile"
+        android:title="Activity"
+        android:icon="@drawable/ic_analytics"
         app:showAsAction="always"
         android:orderInCategory="2"
         />

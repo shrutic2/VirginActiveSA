@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivMon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_indicator_filled" />
+
+    <TextView
+        android:id="@+id/tvMon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/days_background"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:padding="5dp"
+        android:text="Mon"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        app:layout_constraintStart_toEndOf="@+id/ivMon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivTue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:padding="10dp"
+        app:layout_constraintStart_toEndOf="@+id/tvMon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_indicator_filled" />
+
+    <TextView
+        android:id="@+id/tvTue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/days_background"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:padding="5dp"
+        android:text="Tue"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        app:layout_constraintStart_toEndOf="@+id/ivTue"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivWed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:padding="10dp"
+        app:layout_constraintStart_toEndOf="@+id/tvTue"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_indicator_filled" />
+
+    <TextView
+        android:id="@+id/tvWed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/days_background"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:padding="5dp"
+        android:text="Wed"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        app:layout_constraintStart_toEndOf="@+id/ivWed"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivThu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:padding="10dp"
+        app:layout_constraintStart_toEndOf="@+id/tvWed"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_indicator_filled" />
+
+    <TextView
+        android:id="@+id/tvThu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/days_background"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:padding="5dp"
+        android:text="Thu"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        app:layout_constraintStart_toEndOf="@+id/ivThu"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivFri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:padding="10dp"
+        app:layout_constraintStart_toEndOf="@+id/tvThu"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_indicator_filled" />
+
+    <TextView
+        android:id="@+id/tvFri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/days_background"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:padding="5dp"
+        android:text="Fri"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        app:layout_constraintStart_toEndOf="@+id/ivFri"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivSat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:padding="10dp"
+        app:layout_constraintStart_toEndOf="@+id/tvFri"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_indicator_filled" />
+
+    <TextView
+        android:id="@+id/tvSat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/days_background"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:padding="5dp"
+        android:text="Sat"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        app:layout_constraintStart_toEndOf="@+id/ivSat"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivSun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:padding="10dp"
+        app:layout_constraintStart_toEndOf="@+id/tvSat"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_indicator_filled" />
+
+    <TextView
+        android:id="@+id/tvSun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/days_background"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:padding="5dp"
+        android:text="Sun"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        app:layout_constraintStart_toEndOf="@+id/ivSun"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

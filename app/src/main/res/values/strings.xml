@@ -1,3 +1,99 @@
 <resources>
-    <string name="app_name">My Application1</string>
+    <string name="app_name">Virgin Active</string>
+
+    <!--Generic Error Screen-->
+    <string name="errorTitle">Whoops.\nSomething went wrong.</string>
+    <string name="errorMsg">An error occurred. If the error persists, please call our call centre.</string>
+    <string name="errorCallSupport">Call Support</string>
+
+    <!--Login Landing Screen-->
+    <string name="landingTitle">Lets get started</string>
+    <string name="existingMember">I\'m a Virgin Active member</string>
+    <string name="newMember">I\'m new to Virgin Active</string>
+    <string name="generalText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque suspendisse dictum imperdiet vel sed aliquam neque.</string>
+
+    <!--Login Screen-->
+    <string name="loginTitle">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Enter Password</string>
+    <string name="showPassword">Show password</string>
+    <string name="hidePassword">Hide password</string>
+    <string name="continueBtn">Continue</string>
+    <string name="noLogin">Don\'t have login details?</string>
+    <string name="createAccountLink"><a href="">Create online profile</a></string>
+    <string name="forgotPassword"><u>Forgot password</u></string>
+
+    <!--Forgot Password Screen-->
+    <string name="forgotPasswordTitle">Forgot password</string>
+    <string name="forgotPasswordHeading">Log in without your password</string>
+    <string name="forgotPasswordContent">Complete one of the fields below and we\'ll email you a
+        link for password-free login to the app.</string>
+    <string name="forgotPasswordMember">Membership / SA ID / Passport Number</string>
+    <string name="forgotPasswordReset"><u>Reset my password</u></string>
+    <string name="forgotPasswordOr">OR</string>
+
+    <!--Check Email Screen-->
+    <string name="checkMailTitle">Check your email</string>
+    <string name="checkMailContent">To log in without your password, please follow the link sent to
+        the primary address we have:</string>
+    <string name="checkMailNotReceived">Didn\'t receive the email?</string>
+    <string name="checkMailReEnter"><u>Re-enter details</u></string>
+    <string name="checkMailNotCorrectMail">If this email address doesn\'t look right, please contact
+        the call center on:  </string>
+    <string name="checkMailDone">Done</string>
+
+    <!--Reset Password Screen-->
+    <string name="resetPasswordTitle">Reset password</string>
+    <string name="resetPasswordContent">Complete one of the fields below so we can send you a link
+        to reset your password.</string>
+    <string name="resetPasswordResend">Send resend link</string>
+
+    <!--Forgot Password Invalid Email Screen-->
+    <string name="emailNotValid">Incorrect details. The details you entered are not registered for
+        myVA. Try again or <u>register now</u></string>
+    <string name="emailNotValidContent">Enter your email / membership number / SA ID / passport
+        number below so we can email you a link for password-free login to the app.</string>
+    <string name="emailNotValidLabel">Enter your email / membership / SA ID / passport number</string>
+
+    <!--Home Landing Screen-->
+    <string name="userName">Hey %s%s</string>
+    <string name="upComingClasses">Upcoming Classes</string>
+    <string name="homeClub">Home club</string>
+    <string name="clubName">Wembley Square</string>
+    <string name="current">Currently 45% full</string>
+    <string name="popularTimes">Popular times</string>
+    <string name="clubNumber">021 462 6239</string>
+    <string name="viewHours">View Hours</string>
+    <string name="activity">Activity</string>
+    <string name="date">5 – 11 Jan</string>
+    <string name="mon">M</string>
+    <string name="tue">T</string>
+    <string name="wed">W</string>
+    <string name="thu">T</string>
+    <string name="fri">F</string>
+    <string name="sat">S</string>
+    <string name="sun">S</string>
+    <string name="today">Today</string>
+    <string name="time">16:00</string>
+    <string name="exercise">Pilates</string>
+    <string name="club">Wembley</string>
+
+    <!--Club Hours Modal-->
+    <string name="hoursTitle">Wembley Square hours</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="clubTime">5am-10pm</string>
+
+    <!--Club Search Modal-->
+    <string name="searchClubs">Search clubs</string>
+    <string name="clubsFavourites">Favourites</string>
+    <string name="clubsEdit">Edit</string>
+    <string name="clubName2">Cape Town Foreshore</string>
+    <string name="clubOthers">Other Clubs</string>
+    <string name="clubNearest">Select Nearest Club</string>
 </resources>
